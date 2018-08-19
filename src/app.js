@@ -2,9 +2,16 @@ import React from 'react';
 
 import VideoContainer from './containers/videos/';
 
+// styles
+import './assets/scss/base.scss';
+
 const App = () => {
         return (
-            <VideoContainer />
+            <div>
+                <header />
+                <VideoContainer />
+                <footer />
+            </div>
         )
 };
 
